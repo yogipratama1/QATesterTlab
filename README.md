@@ -2,39 +2,39 @@
 
 ## Mind Map Fitur Software 
 
-Root: sistem monitoring lingkungan
+### Sistem Monitoring Lingkungan
 
-|-- Sub Sistem Perangkat IoT
-|   |-- Sensor Lingkungan
-|   |   |-- Suhu Lingkungan
-|   |   |-- Kelembaban Lingkungan
-|   |   |-- Intensitas Cahaya Lingkungan
-|   |   |-- Gambar Lingkungan
-|   |-- Mengisi Daya dari Solar Panel
-|
-|--  Sub Sistem Komunikasi
-|   |-- Modem 4G untuk Mengirim Data Sensor
-|   |-- Protokol MQTT/HTTP
-|   |-- Perintah dari Back End untuk Aktifkan Sensor
-|
-|--  Sub Sistem Back End
-|   |-- Menerima dan Menyimpan Data Sensor
-|   |   |-- Suhu Lingkungan
-|   |   |-- Kelembaban Lingkungan
-|   |   |-- Intensitas Cahaya Lingkungan
-|   |   |-- Gambar Perangkat
-|   |-- Menyimpan Data ke Postgres
-|   |-- Menyimpan Gambar ke Object Storage
-|   |-- Mengolah Data untuk Front End
-|
-|-- Sub Sistem Front End
-|   |-- Menampilkan Data Sensor
-|   |-- Grafik Data Sensor Berdasarkan Waktu dan Lokasi
-|   |-- Notifikasi Status Perangkat
-|   |-- Mengirim Perintah ke Sub Sistem Back End
-|   |-- Mengatur Jadwal Kirim Data
-|   |-- Mengelola Koleksi Foto Serangga
-|   |-- Hak Akses (RBAC)
+## Sub Sistem Perangkat IoT
+- **Sensor Lingkungan**
+  - Suhu Lingkungan
+  - Kelembaban Lingkungan
+  - Intensitas Cahaya Lingkungan
+  - Gambar Lingkungan
+- **Mengisi Daya dari Solar Panel**
+
+## Sub Sistem Komunikasi
+- Modem 4G untuk Mengirim Data Sensor
+- Protokol MQTT/HTTP
+- Perintah dari Back End untuk Aktifkan Sensor
+
+## Sub Sistem Back End
+- **Menerima dan Menyimpan Data Sensor**
+  - Suhu Lingkungan
+  - Kelembaban Lingkungan
+  - Intensitas Cahaya Lingkungan
+  - Gambar Perangkat
+- Menyimpan Data ke Postgres
+- Menyimpan Gambar ke Object Storage
+- Mengolah Data untuk Front End
+
+## Sub Sistem Front End
+- Menampilkan Data Sensor
+- Grafik Data Sensor Berdasarkan Waktu dan Lokasi
+- Notifikasi Status Perangkat
+- Mengirim Perintah ke Sub Sistem Back End
+- Mengatur Jadwal Kirim Data
+- Mengelola Koleksi Foto Serangga
+- Hak Akses (RBAC)
 
 
 ---
